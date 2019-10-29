@@ -22,6 +22,8 @@ extension Dia {
 
 }
 
+// Y entonces si
+
 // MARK: Generated accessors for ejercicios
 extension Dia {
 
