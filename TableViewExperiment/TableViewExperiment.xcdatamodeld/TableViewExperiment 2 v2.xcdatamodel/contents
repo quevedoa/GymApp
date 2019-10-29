@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14903" systemVersion="18G103" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Dia" representedClassName=".Dia" syncable="YES">
+        <attribute name="nombre" attributeType="String"/>
+        <relationship name="ejercicios" toMany="YES" deletionRule="Nullify" destinationEntity="Ejercicio" inverseName="dia" inverseEntity="Ejercicio"/>
+    </entity>
+    <entity name="Ejercicio" representedClassName=".Ejercicio" syncable="YES">
+        <attribute name="max" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="nombre" attributeType="String"/>
+        <attribute name="reps" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="sets" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="dia" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Dia" inverseName="ejercicios" inverseEntity="Dia"/>
+    </entity>
+    <elements>
+        <element name="Dia" positionX="303.52734375" positionY="43.53515625" width="128" height="58"/>
+        <element name="Ejercicio" positionX="-54" positionY="0" width="128" height="118"/>
+    </elements>
+</model>
