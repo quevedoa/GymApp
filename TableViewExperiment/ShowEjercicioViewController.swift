@@ -41,7 +41,7 @@ class ShowEjercicioViewController: UIViewController {
         repsLabel.text = String(ejercicioActual!.reps)
         setsLabel.text = String(ejercicioActual!.sets)
         maxLabel.text = String(ejercicioActual!.max)
-        //notesTextView.text = ejercicioActual?.notes
+        notesTextView.text = ejercicioActual?.notes
     }
     
     @IBAction func repsStepper(_ sender: UIStepper) {
@@ -80,9 +80,10 @@ class ShowEjercicioViewController: UIViewController {
         ejercicioActual?.reps = finalReps
         ejercicioActual?.sets = finalSets
         ejercicioActual?.max = finalMax
-        //ejercicioActual?.notes = notesTextView.text
+        ejercicioActual?.notes = notesTextView.text
         
         (UIApplication.shared.delegate as! AppDelegate).saveContext()
+        
         navigationController!.popViewController(animated: true)
     }
     

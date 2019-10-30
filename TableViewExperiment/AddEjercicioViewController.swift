@@ -49,7 +49,7 @@ class AddEjercicioViewController: UIViewController, UINavigationControllerDelega
     }
 
     @IBAction func addEjercicio(_ sender: UIBarButtonItem) {
-        //ejercicioActual.notes = notasTextView.text!
+        ejercicioActual.notes = notasTextView.text!
         
         ejercicioActual.nombre = nombreEjercicioTextField.text
         diaActual?.addToEjercicios(ejercicioActual)
