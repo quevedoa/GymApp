@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,12 +18,15 @@
 		321898EA2368B32300EB5829 /* Ejercicio+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321898E82368B32300EB5829 /* Ejercicio+CoreDataProperties.swift */; };
 		321898EC23694D2600EB5829 /* Dia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321898EB23694D2600EB5829 /* Dia.swift */; };
 		321898EE23694D5300EB5829 /* Ejercicio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321898ED23694D5300EB5829 /* Ejercicio.swift */; };
+		32AF59D4236D52900069C356 /* AddEjercicioBonitoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AF59D3236D52900069C356 /* AddEjercicioBonitoViewController.swift */; };
 		32FAB16C23486DD800806B23 /* EjerciciosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FAB16B23486DD800806B23 /* EjerciciosViewController.swift */; };
 		32FAB16E2348784E00806B23 /* AddEjercicioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FAB16D2348784E00806B23 /* AddEjercicioViewController.swift */; };
 		32FAB1702348EF8800806B23 /* ShowEjercicioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FAB16F2348EF8800806B23 /* ShowEjercicioViewController.swift */; };
+		68B6B494B42A94CD2277680D /* Pods_TableViewExperiment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51A57C04379D3A88264B8461 /* Pods_TableViewExperiment.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		26B95B7F5B52315B76CF7A30 /* Pods-TableViewExperiment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewExperiment.debug.xcconfig"; path = "Target Support Files/Pods-TableViewExperiment/Pods-TableViewExperiment.debug.xcconfig"; sourceTree = "<group>"; };
 		320A2FED2348401D0001E325 /* Gym.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gym.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		320A2FF02348401D0001E325 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		320A2FF22348401D0001E325 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,10 +41,13 @@
 		321898EB23694D2600EB5829 /* Dia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dia.swift; sourceTree = "<group>"; };
 		321898ED23694D5300EB5829 /* Ejercicio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ejercicio.swift; sourceTree = "<group>"; };
 		322961182368B076006B9CD9 /* TableViewExperiment 2 v3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "TableViewExperiment 2 v3.xcdatamodel"; sourceTree = "<group>"; };
+		32AF59D3236D52900069C356 /* AddEjercicioBonitoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEjercicioBonitoViewController.swift; sourceTree = "<group>"; };
 		32E10A5B2354F73300F6D5D4 /* TableViewExperiment 2 v2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "TableViewExperiment 2 v2.xcdatamodel"; sourceTree = "<group>"; };
 		32FAB16B23486DD800806B23 /* EjerciciosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EjerciciosViewController.swift; sourceTree = "<group>"; };
 		32FAB16D2348784E00806B23 /* AddEjercicioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEjercicioViewController.swift; sourceTree = "<group>"; };
 		32FAB16F2348EF8800806B23 /* ShowEjercicioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowEjercicioViewController.swift; sourceTree = "<group>"; };
+		389CCFCCF4C601350E103DA1 /* Pods-TableViewExperiment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewExperiment.release.xcconfig"; path = "Target Support Files/Pods-TableViewExperiment/Pods-TableViewExperiment.release.xcconfig"; sourceTree = "<group>"; };
+		51A57C04379D3A88264B8461 /* Pods_TableViewExperiment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TableViewExperiment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,17 +55,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68B6B494B42A94CD2277680D /* Pods_TableViewExperiment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		31327E312DB0BCB9D705AEBD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26B95B7F5B52315B76CF7A30 /* Pods-TableViewExperiment.debug.xcconfig */,
+				389CCFCCF4C601350E103DA1 /* Pods-TableViewExperiment.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		320A2FE42348401D0001E325 = {
 			isa = PBXGroup;
 			children = (
 				320A2FEF2348401D0001E325 /* TableViewExperiment */,
 				320A2FEE2348401D0001E325 /* Products */,
+				31327E312DB0BCB9D705AEBD /* Pods */,
+				BD1E74A3DE273557803B90E0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,6 +102,7 @@
 				320A3005234842870001E325 /* AddViewController.swift */,
 				32FAB16B23486DD800806B23 /* EjerciciosViewController.swift */,
 				32FAB16D2348784E00806B23 /* AddEjercicioViewController.swift */,
+				32AF59D3236D52900069C356 /* AddEjercicioBonitoViewController.swift */,
 				32FAB16F2348EF8800806B23 /* ShowEjercicioViewController.swift */,
 				320A2FF72348401D0001E325 /* TableViewExperiment.xcdatamodeld */,
 				320A2FFA2348401E0001E325 /* Assets.xcassets */,
@@ -93,6 +112,14 @@
 			path = TableViewExperiment;
 			sourceTree = "<group>";
 		};
+		BD1E74A3DE273557803B90E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51A57C04379D3A88264B8461 /* Pods_TableViewExperiment.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -100,9 +127,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 320A30022348401E0001E325 /* Build configuration list for PBXNativeTarget "TableViewExperiment" */;
 			buildPhases = (
+				3EC2B747F0E84BC9DF9ADA88 /* [CP] Check Pods Manifest.lock */,
 				320A2FE92348401D0001E325 /* Sources */,
 				320A2FEA2348401D0001E325 /* Frameworks */,
 				320A2FEB2348401D0001E325 /* Resources */,
+				99DB9DA89E0701589047BA61 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -159,6 +188,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3EC2B747F0E84BC9DF9ADA88 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TableViewExperiment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99DB9DA89E0701589047BA61 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TableViewExperiment/Pods-TableViewExperiment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TableViewExperiment/Pods-TableViewExperiment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TableViewExperiment/Pods-TableViewExperiment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		320A2FE92348401D0001E325 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -169,6 +240,7 @@
 				320A2FF12348401D0001E325 /* AppDelegate.swift in Sources */,
 				321898EA2368B32300EB5829 /* Ejercicio+CoreDataProperties.swift in Sources */,
 				32FAB16E2348784E00806B23 /* AddEjercicioViewController.swift in Sources */,
+				32AF59D4236D52900069C356 /* AddEjercicioBonitoViewController.swift in Sources */,
 				320A3006234842870001E325 /* AddViewController.swift in Sources */,
 				321898EE23694D5300EB5829 /* Ejercicio.swift in Sources */,
 				32FAB16C23486DD800806B23 /* EjerciciosViewController.swift in Sources */,
@@ -318,6 +390,7 @@
 		};
 		320A30032348401E0001E325 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26B95B7F5B52315B76CF7A30 /* Pods-TableViewExperiment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -336,6 +409,7 @@
 		};
 		320A30042348401E0001E325 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 389CCFCCF4C601350E103DA1 /* Pods-TableViewExperiment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
